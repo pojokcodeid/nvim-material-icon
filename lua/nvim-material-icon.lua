@@ -1,6 +1,13 @@
 -- When adding new icons, remember to add an entry to the `filetypes` table, if applicable.
 local icons = {
     -- ### Custom missing icons
+    ['pnpm-lock.yaml'] = {
+        icon = "",
+        color = "#7a0d21",
+        cterm_color = "1",
+        name = "PnpmLockYaml"
+    },
+
     ["cjs"] = {
         icon = "",
         color = "#f1e05a",
@@ -1827,6 +1834,22 @@ local icons = {
 
 -- Map of filetypes -> icon names
 local filetypes = {
+    -- ##### Custom added or fixed #####
+    [".cjs"] = "cjs",
+    [".mjs"] = "mjs",
+    [".mts"] = "mts",
+    [".cts"] = "cts",
+    [".astro"] = "astro",
+    [".spec.js"] = "spec.js",
+    [".spec.cjs"] = "spec.cjs",
+    [".spec.mjs"] = "spec.mjs",
+    [".spec.mts"] = "spec.mts",
+    [".spec.cts"] = "spec.cts",
+    ["package.json"] = "package.json",
+    ["package-lock.json"] = "package-lock.json",
+
+
+    -- #####
     [".babelrc"] = "babelrc",
     [".bash_profile"] = "bash_profile",
     [".bashrc"] = "bashrc",
@@ -1971,8 +1994,6 @@ local filetypes = {
     ["node_modules"] = "node_modules",
     ["opus"] = "opus",
     ["otf"] = "otf",
-    ["package.json"] = "package.json",
-    ["package-lock.json"] = "package-lock.json",
     ["pck"] = "pck",
     ["pdf"] = "pdf",
     ["php"] = "php",
