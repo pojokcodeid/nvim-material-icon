@@ -1,5 +1,81 @@
 -- When adding new icons, remember to add an entry to the `filetypes` table, if applicable.
 local icons = {
+    -- ### Custom missing icons
+    ["cjs"] = {
+        icon = "",
+        color = "#f1e05a",
+        cterm_color = "221",
+        name = "Cjs",
+    },
+    ["astro"] = {
+        icon = '󰲇',
+        color = "#e24329",
+        cterm_color = "166",
+        name = "Astro",
+    },
+    ["cts"] = {
+        icon = "ﯤ",
+        color = "#519aba",
+        cterm_color = "67",
+        name = "Cts",
+    },
+    ["mts"] = {
+        icon = "ﯤ",
+        color = "#519aba",
+        cterm_color = "67",
+        name = "Mts",
+    },
+    ["spec.js"] = {
+        icon = "",
+        color = "#ffca28",
+        cterm_color = "220",
+        name = "TestJavascript",
+    },
+    ["spec.cjs"] = {
+        icon = "",
+        color = "#ffca28",
+        cterm_color = "220",
+        name = "TestJavascriptCommon",
+    },
+    ["spec.mjs"] = {
+        icon = "",
+        color = "#ffca28",
+        cterm_color = "220",
+        name = "TestJavascriptModule",
+    },
+    ["spec.jsx"] = {
+        icon = "",
+        color = "#00bcd4",
+        cterm_color = "38",
+        name = "TestJavascriptReact",
+    },
+    ["spec.ts"] = {
+        icon = "",
+        color = "#00bcd4",
+        cterm_color = "38",
+        name = "TestTypescript",
+    },
+    ["spec.tsx"] = {
+        icon = "",
+        color = "#00bcd4",
+        cterm_color = "38",
+        name = "TestTypescriptReact",
+    },
+    ["spec.cts"] = {
+        icon = "",
+        color = "#00bcd4",
+        cterm_color = "38",
+        name = "TestTypescriptCommon",
+    },
+    ["spec.mts"] = {
+        icon = "",
+        color = "#00bcd4",
+        cterm_color = "38",
+        name = "TestTypescriptModule",
+    },
+
+
+    -- ####
     [".babelrc"] = {
         icon = "",
         color = "#cbcb41",
