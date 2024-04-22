@@ -977,7 +977,7 @@ local icons = {
 		name = "Pm",
 	},
 	["png"] = {
-		icon = "",
+		icon = "󰋩",
 		color = "#26a69a",
 		cterm_color = "36",
 		name = "Png",
@@ -1157,19 +1157,19 @@ local icons = {
 		name = "Sml",
 	},
 	["sql"] = {
-		icon = "",
+		icon = "󰆼",
 		color = "#dad8d8",
 		cterm_color = "253",
 		name = "Sql",
 	},
 	["sqlite"] = {
-		icon = "",
+		icon = "󰆼",
 		color = "#dad8d8",
 		cterm_color = "253",
 		name = "Sql",
 	},
 	["sqlite3"] = {
-		icon = "",
+		icon = "󰆼",
 		color = "#dad8d8",
 		cterm_color = "253",
 		name = "Sql",
