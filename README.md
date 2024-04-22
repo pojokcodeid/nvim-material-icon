@@ -10,7 +10,6 @@ An improved version of [nvim-web-devicons](https://github.com/nvim-tree/nvim-web
 
 ![image](https://user-images.githubusercontent.com/46809008/201246284-316406cb-251c-484a-8c61-1d3f9390fdcb.png)
 
-
 ## Warning ⚠️⚠️
 
 You need [DaikyXendo/nvim-tree.lua](https://github.com/DaikyXendo/nvim-tree.lua) instead of [nvim-tree/nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua)
@@ -37,18 +36,35 @@ web_devicons.setup({
 
 ## Requirements
 
--   [Nerd fonts](https://www.nerdfonts.com/)
+- [Nerd fonts](https://www.nerdfonts.com/)
 
 ## Installation
 
 ```vim
-Plug 'DaikyXendo/nvim-material-icon'
+Plug 'pojokcodeid/nvim-material-icon'
 ```
 
 or with [packer.nvim](https://github.com/wbthomason/packer.nvim)
 
 ```lua
-use 'DaikyXendo/nvim-material-icon'
+use 'pojokcodeid/nvim-material-icon'
+```
+
+or with [lazy.nvim](https://github.com/folke/lazy.nvim)
+
+```lua
+{
+    "nvim-tree/nvim-web-devicons",
+    event = { "VeryLazy" },
+    dependencies = {
+        "pojokcodeid/nvim-material-icon",
+    },
+    config = function()
+        require("nvim-web-devicons").setup({
+            override = require("nvim-material-icon").get_icons()
+        })
+    end
+}
 ```
 
 ## Usage
