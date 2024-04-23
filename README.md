@@ -14,7 +14,7 @@ An improved version of [nvim-web-devicons](https://github.com/nvim-tree/nvim-web
 
 You need [DaikyXendo/nvim-tree.lua](https://github.com/DaikyXendo/nvim-tree.lua) instead of [nvim-tree/nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua)
 
-## Override to match with other plugins (thanks [dailoi282702](https://github.com/dailoi280702))
+## Override to match with other plugins (thanks [gipo355](https://github.com/gipo355))
 
 Some plugins are associated with nvim-web-devicons such as [bufferline.nvim](https://github.com/akinsho/bufferline.nvim). You can use below way to override nvim-material-icon over nim-web-devicons
 

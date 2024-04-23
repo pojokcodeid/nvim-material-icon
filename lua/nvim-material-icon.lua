@@ -1325,7 +1325,7 @@ local icons = {
 		name = "Zsh",
 	},
 	["sol"] = {
-		icon = "ﲹ",
+		icon = "",
 		color = "#519aba",
 		cterm_color = "67",
 		name = "Solidity",
@@ -1572,7 +1572,7 @@ local icons = {
 		name = "Robot",
 	},
 	["CONTRIBUTING.md"] = {
-		icon = "",
+		icon = "󰅍",
 		color = "#ffca28",
 		cterm_color = "220",
 		name = "CONTRIBUTING.md",
