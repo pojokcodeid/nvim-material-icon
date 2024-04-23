@@ -12,7 +12,7 @@ An improved version of [nvim-web-devicons](https://github.com/nvim-tree/nvim-web
 
 ## Warning ⚠️⚠️
 
-You need [DaikyXendo/nvim-tree.lua](https://github.com/DaikyXendo/nvim-tree.lua) instead of [nvim-tree/nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua)
+You need [nvim-tree/nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua)
 
 ## Override to match with other plugins (thanks [gipo355](https://github.com/gipo355))
 
