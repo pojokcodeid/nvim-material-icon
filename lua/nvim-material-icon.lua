@@ -2,7 +2,7 @@
 local icons = {
 	-- ### Custom missing icons
 	["pnpm-lock.yaml"] = {
-		icon = "",
+		icon = "󰎙",
 		color = "#7a0d21",
 		cterm_color = "1",
 		name = "PnpmLockYaml",
