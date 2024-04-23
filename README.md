@@ -1,6 +1,6 @@
 # Nvim-material-icon
 
-## 291 file types supported
+## 291 file types supported NerdFont 3.2.1
 
 ## 🎉🎉 Big update! Fix icon, color and add more file types supported
 
