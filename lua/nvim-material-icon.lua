@@ -2,7 +2,7 @@
 local icons = {
 	-- ### Custom missing icons
 	["pnpm-lock.yaml"] = {
-		icon = "󰎙",
+		icon = "",
 		color = "#7a0d21",
 		cterm_color = "1",
 		name = "PnpmLockYaml",
@@ -2100,6 +2100,37 @@ local icons = {
 		color = "#faf743",
 		cterm_color = "227",
 		name = "readmefile",
+	},
+	-- ### update 20240428
+	["composer.json"] = {
+		icon = "",
+		color = "#7D6A4C",
+		cterm_color = "221",
+		name = "composerjson",
+	},
+	["lock"] = {
+		icon = "",
+		color = "#FDD72C",
+		cterm_color = "221",
+		name = "lockfile",
+	},
+	["webpack.mix.js"] = {
+		icon = "󰜫",
+		color = "#8ED6FB",
+		cterm_color = "221",
+		name = "webpackmixjs",
+	},
+	[".env.example"] = {
+		icon = "",
+		color = "#faf743",
+		cterm_color = "227",
+		name = "Env",
+	},
+	["web.config"] = {
+		icon = "",
+		color = "#BFBFBF",
+		cterm_color = "227",
+		name = "webconfig",
 	},
 }
 
