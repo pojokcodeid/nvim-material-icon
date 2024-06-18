@@ -2104,7 +2104,7 @@ local icons = {
 	-- ### update 20240428
 	["composer.json"] = {
 		icon = "",
-		color = "#7D6A4C",
+		color = "#3d70d6",
 		cterm_color = "221",
 		name = "composerjson",
 	},
