@@ -1122,7 +1122,7 @@ local icons = {
 	-- },
 	["scm"] = {
 		icon = "󰘧",
-		color = "#000000",
+		color = "#f55385",
 		cterm_color = "16",
 		name = "Scheme",
 	},
