@@ -1114,8 +1114,14 @@ local icons = {
 		cterm_color = "203",
 		name = "Scala",
 	},
+	-- ["scm"] = {
+	-- 	icon = "ﬦ",
+	-- 	color = "#000000",
+	-- 	cterm_color = "16",
+	-- 	name = "Scheme",
+	-- },
 	["scm"] = {
-		icon = "ﬦ",
+		icon = "󰘧",
 		color = "#000000",
 		cterm_color = "16",
 		name = "Scheme",
