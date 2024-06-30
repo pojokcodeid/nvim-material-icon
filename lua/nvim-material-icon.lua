@@ -1892,6 +1892,12 @@ local icons = {
 		cterm_color = "240",
 		name = "eslintrccjs",
 	},
+	["eslint.config.js"] = {
+		icon = "󰱺",
+		color = "#4930bd",
+		cterm_color = "240",
+		name = "eslintconfigjs",
+	},
 	[".htaccess"] = {
 		icon = "󰛓",
 		color = "#C63C17",
