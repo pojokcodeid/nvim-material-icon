@@ -1898,6 +1898,12 @@ local icons = {
 		cterm_color = "240",
 		name = "eslintconfigjs",
 	},
+	["eslint.config.mjs"] = {
+		icon = "󰱺",
+		color = "#4930bd",
+		cterm_color = "240",
+		name = "eslintconfigmjs",
+	},
 	[".htaccess"] = {
 		icon = "󰛓",
 		color = "#C63C17",
