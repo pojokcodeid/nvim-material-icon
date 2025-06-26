@@ -2079,7 +2079,7 @@ local icons = {
 		name = "gradlewFile-staging",
 	},
 	["nodemon.json"] = {
-		icon = "󰇴",
+		icon = "",
 		color = "#76d04b",
 		cterm_color = "220",
 		name = "nodemonjson",
