@@ -1862,6 +1862,18 @@ local icons = {
 		cterm_color = "240",
 		name = "viteconfigts",
 	},
+	["vitest.config.ts"] = {
+		icon = "",
+		color = "#e6c82eff",
+		cterm_color = "240",
+		name = "vitestconfigts",
+	},
+	["commitlint.config.js"] = {
+		icon = "",
+		color = "#16cabbff",
+		cterm_color = "240",
+		name = "vitestconfigts",
+	},
 	["vite.config.js"] = {
 		icon = "󰉁",
 		color = "#ffab00",
@@ -2455,6 +2467,8 @@ local filetypes = {
 	["lib"] = "lib",
 	["liquid"] = "liquid",
 	["vite.config.js"] = "vite.config.js",
+	["vite.config.ts"] = "vite.config.ts",
+	["vitest.config.ts"] = "vitest.config.ts",
 	["nuxt.config.js"] = "nuxt.config.js",
 	["todo"] = "todo",
 	["http"] = "http",
