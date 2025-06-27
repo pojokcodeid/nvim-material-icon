@@ -1864,13 +1864,13 @@ local icons = {
 	},
 	["vitest.config.ts"] = {
 		icon = "",
-		color = "#e6c82eff",
+		color = "#e6c82e",
 		cterm_color = "240",
 		name = "vitestconfigts",
 	},
 	["commitlint.config.js"] = {
 		icon = "",
-		color = "#16cabbff",
+		color = "#16cabb",
 		cterm_color = "240",
 		name = "vitestconfigts",
 	},
