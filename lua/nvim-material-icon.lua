@@ -1868,12 +1868,6 @@ local icons = {
 		cterm_color = "240",
 		name = "vitestconfigts",
 	},
-	["commitlint.config.js"] = {
-		icon = "",
-		color = "#4dba87",
-		cterm_color = "240",
-		name = "commitlintconfigjs",
-	},
 	["vite.config.js"] = {
 		icon = "󰉁",
 		color = "#ffab00",
