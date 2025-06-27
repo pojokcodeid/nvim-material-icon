@@ -1872,7 +1872,7 @@ local icons = {
 		icon = "",
 		color = "#4dba87",
 		cterm_color = "240",
-		name = "vitestconfigts",
+		name = "commitlintconfigjs",
 	},
 	["vite.config.js"] = {
 		icon = "󰉁",
