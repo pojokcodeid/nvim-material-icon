@@ -1477,7 +1477,7 @@ local icons = {
 	},
 	["exe"] = {
 		-- icon = "",
-		icon = "󰣆",
+		icon = "",
 		color = "#e64a19",
 		cterm_color = "166",
 		name = "Exe",
