@@ -1337,7 +1337,7 @@ local icons = {
 		name = "Solidity",
 	},
 	[".env"] = {
-		icon = "",
+		icon = "",
 		color = "#faf743",
 		cterm_color = "227",
 		name = "Env",
@@ -2115,7 +2115,7 @@ local icons = {
 		name = "gitlabciyaml",
 	},
 	[".env_example"] = {
-		icon = "",
+		icon = "",
 		color = "#faf743",
 		cterm_color = "227",
 		name = "Envexample",
@@ -2146,7 +2146,7 @@ local icons = {
 		name = "webpackmixjs",
 	},
 	[".env.example"] = {
-		icon = "",
+		icon = "",
 		color = "#faf743",
 		cterm_color = "227",
 		name = "Env",
