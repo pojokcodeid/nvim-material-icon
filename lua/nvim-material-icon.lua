@@ -2007,7 +2007,7 @@ local icons = {
 		name = "eslintignore",
 	},
 	["jest.config.js"] = {
-		icon = "󰚐",
+		icon = "",
 		color = "#e37575",
 		cterm_color = "220",
 		name = "jestconfig",
