@@ -83,7 +83,7 @@ local icons = {
 
 	-- ####
 	[".babelrc"] = {
-		icon = "󰨥",
+		icon = "",
 		color = "#cbcb41",
 		cterm_color = "185",
 		name = "Babelrc",
@@ -1464,7 +1464,7 @@ local icons = {
 		name = "Arduino",
 	},
 	["babel.config.js"] = {
-		icon = "󰨥",
+		icon = "",
 		color = "#fdd835",
 		cterm_color = "221",
 		name = "BabelConfig",
