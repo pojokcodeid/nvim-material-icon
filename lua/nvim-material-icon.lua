@@ -443,9 +443,9 @@ local icons = {
 		name = "Dart",
 	},
 	["db"] = {
-		icon = "",
-		color = "#dad8d8",
-		cterm_color = "253",
+		icon = "",
+		color = "#f2c55c",
+		cterm_color = "220",
 		name = "Db",
 	},
 	["desktop"] = {
