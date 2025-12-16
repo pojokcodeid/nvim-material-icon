@@ -443,7 +443,7 @@ local icons = {
 		name = "Dart",
 	},
 	["db"] = {
-		icon = "",
+		icon = "󱘲",
 		color = "#f2c55c",
 		cterm_color = "220",
 		name = "Db",
